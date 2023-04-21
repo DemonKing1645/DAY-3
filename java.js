@@ -1,3 +1,57 @@
+//TASK 1 
+
+const persons = [{
+    name:"gunasheelan",
+    age:23,
+    phone:9348955974,
+},
+{
+    name:"Surya",
+    age:13,
+    phone:9376575974,
+},
+{
+    name:"Saran raj",
+    age:53,
+    phone:9782575974,
+}];
+
+//For Loop
+
+// for(let d = 0; d <=persons.length;d++) {
+//     console.log(persons[d].name);
+//     console.log(persons[d].age);
+//     console.log(persons[d].phone);
+// }
+
+// forof 
+
+// for(let value of persons) {
+//     console.log(value.name);
+//     console.log(value.age);
+//     console.log(value.phone);
+// }
+ 
+// foreach
+
+// persons.forEach(function (all) {
+//     console.log(all.name)
+//     console.log(all.age)
+//     console.log(all.phone)
+// });
+
+//forin 
+
+
+// for(d=0;d<persons.length;d++){
+// for(var values in persons[d]){
+//      console.log(`${values}: ${persons[d][values]}`);
+// }
+// }
+
+
+// TASK 2 RESUME
+
 let resume = {
     "details": {
         "Name":  "Gunasheelan A",
